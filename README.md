@@ -168,18 +168,12 @@ print(response.json())
 
 The API will automatically extract and categorize the topic from your conversation data.
 
-## Dashboard Features
-
-### Conversations Tab
-- View all conversations with questions, answers, topics, and languages
-- Real-time refresh capability
-- Topic and language badges for quick identification
-
-### Analytics Tab
+## Realtime Dashboard Features
 - **Summary Statistics**: Total conversations, unique topics, languages
 - **Interactions Over Time**: Line chart showing daily conversation trends
 - **Top Trending Topics**: Horizontal bar chart of most discussed topics
 - **Language Distribution**: Bar chart showing conversations by language
+- **Conversation History**: View all conversations with questions, answers, topics, and languages (maybe removed later!)
 
 ## Database Schema
 
