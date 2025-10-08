@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server"
-import { prisma } from "lib/db"
-import { extractTopic, categorizeTopic } from "lib/topic-analyzer"
+import { prisma } from "../../../lib/db"
+import { extractTopic, categorizeTopic } from "../../../lib/topic-analyzer"
 
 // POST endpoint to analyze topic for a specific conversation
 export async function POST(request: Request) {
